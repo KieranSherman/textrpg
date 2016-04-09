@@ -69,7 +69,7 @@ public class Window extends JPanel {
 		
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
-				window = new JFrame("");
+				window = new JFrame("Text Game");
 				window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 				window.setResizable(false);
 				
